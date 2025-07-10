@@ -152,3 +152,44 @@ nav .nav-build li {
   color: orange;
 }
 /* card-review-end */
+
+/* form-css-start */
+form {
+  width: 50%;
+}
+.form-title {
+  font-size: 80px;
+  font-weight: 700;
+  text-align: left;
+}
+form input[type="text"],
+textarea {
+  height: 20px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  width: 100%;
+  border: 1px solid rgb(214, 221, 237);
+}
+form label {
+  display: block;
+}
+.form-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+#submit-btn {
+  background-color: #4e47ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 100px;
+  width: 100%;
+  margin-top: 10px;
+}
+#submit-btn:hover {
+  background-color: #1e17e4;
+  cursor: pointer;
+}
+/* form-css-end */
