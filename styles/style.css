@@ -3,6 +3,13 @@
 .raleway-font {
   font-family: "Raleway", sans-serif;
 }
+* {
+  margin: 0;
+}
+.main-part {
+  width: 1140px;
+  margin: 0 auto;
+}
 /* shared-style */
 .btn {
   background-color: #4e47ff;
@@ -10,6 +17,11 @@
   border: none;
   border-radius: 10px;
   padding: 20px 40px;
+}
+.section-title {
+  color: #252432;
+  font-size: 40px;
+  font-weight: 700;
 }
 /* shared-style */
 /* nav-css-start */
@@ -47,3 +59,35 @@ nav .nav-build li {
   text-align: center;
 }
 /* nav-css-end */
+
+/* main-css */
+
+.main-part section {
+  margin: 116px 0;
+}
+/* Action-css-start */
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.action-title {
+  color: rgb(37, 36, 50);
+  font-family: Raleway;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.action-para {
+  color: #25243280;
+  font-size: 24px;
+  font-weight: 400;
+}
+.action img {
+  border-radius: 30px;
+  width: 40%;
+}
+/* Action-css-end */
