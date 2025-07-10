@@ -18,17 +18,22 @@
   border-radius: 10px;
   padding: 20px 40px;
 }
+.btn:hover {
+  background-color: #1e17e4;
+  cursor: pointer;
+}
+
 .section-title {
   color: #252432;
   font-size: 40px;
   font-weight: 700;
+  text-align: center;
 }
 /* shared-style */
 /* nav-css-start */
 .nav-build {
   display: flex;
   justify-content: space-between;
-  margin: 0 100px;
 }
 .nav-build .logo-item {
   color: #4e47ff;
@@ -57,6 +62,7 @@ nav .nav-build li {
   font-size: 50px;
   font-weight: 700;
   text-align: center;
+  margin-bottom: 20px;
 }
 /* nav-css-end */
 
@@ -72,22 +78,77 @@ nav .nav-build li {
   align-items: center;
   gap: 20px;
 }
-.action-title {
-  color: rgb(37, 36, 50);
-  font-family: Raleway;
-  font-size: 42px;
+#action-title {
+  color: #252432;
+  font-size: 40px;
   font-weight: 700;
-  line-height: 49px;
-  letter-spacing: 0%;
-  text-align: left;
 }
 .action-para {
   color: #25243280;
   font-size: 24px;
   font-weight: 400;
+  margin-bottom: 20px;
 }
 .action img {
   border-radius: 30px;
   width: 40%;
 }
 /* Action-css-end */
+/* productive-css-start */
+.productive-user-desc {
+  border-radius: 24px;
+  padding: 50px 30px;
+  background: #4e47ff1a;
+}
+.user-rate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 20px 30px;
+}
+.user-rate h1 {
+  color: #4e47ff;
+  font-family: Inter;
+  font-size: 50px;
+  font-weight: 700;
+}
+.user-rate p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+/* productive-css-end */
+/* card-review-start */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.img-reviewer {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+.card {
+  width: 33%;
+  background-color: red;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(242, 237, 237);
+  border-radius: 14px;
+
+  background: #f2eded;
+}
+.icon .fa-star {
+  color: orange;
+}
+/* card-review-end */
