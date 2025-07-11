@@ -193,3 +193,36 @@ form label {
   cursor: pointer;
 }
 /* form-css-end */
+
+.footer-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-title {
+  color: #4e47ff;
+  font-size: 70px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 7px;
+}
+.footer-link {
+  margin: 20px;
+}
+
+.footer-link ul {
+  display: flex;
+  gap: 50px;
+}
+.footer-link ul li {
+  list-style: none;
+}
+
+.footer-link ul li a {
+  color: #8987a1;
+  text-decoration: none;
+}
+.footer-link ul li a:hover {
+  color: #1e17e4;
+}
