@@ -29,6 +29,9 @@
   font-weight: 700;
   text-align: center;
 }
+span {
+  color: #130bf1;
+}
 /* shared-style */
 /* nav-css-start */
 .nav-build {
@@ -42,6 +45,9 @@
 }
 nav .nav-build li {
   list-style-type: none;
+}
+.nav-section nav {
+  padding: 20px;
 }
 .nav-section {
   width: 100%;
@@ -152,7 +158,21 @@ nav .nav-build li {
   color: orange;
 }
 /* card-review-end */
+.focus-p {
+  margin: 30px;
+  text-align: center;
+}
 
+.focus-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.focus-pic {
+  border-radius: 10px;
+  margin-top: 20px;
+}
 /* form-css-start */
 form {
   width: 50%;
@@ -193,7 +213,7 @@ form label {
   cursor: pointer;
 }
 /* form-css-end */
-
+/* footer-css-start */
 .footer-part {
   display: flex;
   flex-direction: column;
@@ -226,3 +246,4 @@ form label {
 .footer-link ul li a:hover {
   color: #1e17e4;
 }
+/* footer-css-end */
